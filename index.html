@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+  <link rel="stylesheet" href="/CSS/main.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { text-align: center; color: aliceblue; font-size: 1em;}
+    .attribution a {text-decoration: none; color:rgb(8, 101, 188); }
+  </style>
+</head>
+<body>
+  <div class="calc">
+    <div class="calc-output">
+      <div class="calc-output-display">
+        <p class="output">0</p>
+      </div>
+    </div>
+    <div class="calc-body">
+      <div class="calc-body-row">
+        <div class="calc-body-cell" data-value="7">7</div>
+        <div class="calc-body-cell" data-value="8">8</div>
+        <div class="calc-body-cell" data-value="9">9</div>
+        <div class="calc-body-cell del" data-value="del">del</div>
+      </div>
+
+
+      <div class="calc-body-row">
+        <div class="calc-body-cell" data-value="4">4</div>
+        <div class="calc-body-cell" data-value="5">5</div>
+        <div class="calc-body-cell" data-value="6">6</div>
+        <div class="calc-body-cell plus" data-value="plus">+</div>
+      </div>
+
+
+      <div class="calc-body-row">
+        <div class="calc-body-cell" data-value="1">1</div>
+        <div class="calc-body-cell" data-value="2">2</div>
+        <div class="calc-body-cell" data-value="3">3</div>
+        <div class="calc-body-cell min" data-value="min">-</div>
+      </div>
+
+
+      <div class="calc-body-row">
+        <div class="calc-body-cell dot" data-value="dot">.</div>
+        <div class="calc-body-cell" data-value="7">7</div>
+        <div class="calc-body-cell div" data-value="div">/</div>
+        <div class="calc-body-cell mul" data-value="mul">x</div>
+      </div>
+
+
+      <div class="calc-body-row">
+        <div class="calc-body-cell res" data-value="res">Reset</div>
+        <div class="calc-body-cell equal" data-value="equal">=</div>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.github.com/mennaafathy1014">Menna A Fathy</a>.
+  </div>
+
+  <script src="SCRIPTS/script.js"></script>
+</body>
+</html>
