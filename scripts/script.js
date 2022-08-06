@@ -3,7 +3,7 @@ class Calc{
         this.preval = preval;
         this.currval = currval;
         this.reset();
-        console.log(this);
+        
     }
   reset(){
     this.currentOp = '';
@@ -26,7 +26,7 @@ class Calc{
     this.operator = operator;
     this.previousOp = this.currentOp ;
     this.currentOp = '';
-    console.log(this.operator)
+    
 
   }
   equals(){
@@ -53,7 +53,7 @@ class Calc{
     this.currentOp= result;
     this.operator = undefined;
     this.previousOp = '';
-    console.log(this.currentOp)
+    
 
   }
   update(){
