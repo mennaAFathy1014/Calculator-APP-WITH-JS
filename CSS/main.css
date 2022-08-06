@@ -31,9 +31,9 @@ body{
 .calc-output{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     width: 70%;
-    height: 100px;
+    height: 6.98em;
     padding:0.5em 1em;
     margin-block-end: 1.5em;
     background-color: var(--screen-background-color);
@@ -45,8 +45,9 @@ body{
 }
 .calc-output p{
     width: 100%;
-    font-size: 2em;
-    padding: 0.2em;
+    height: 1em;
+    font-size: 1.5em;
+    padding: 0.02em;
     font-weight: bold;
     color: white;
     text-align: right;
