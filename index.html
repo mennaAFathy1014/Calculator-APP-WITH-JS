@@ -18,7 +18,8 @@
   <div class="calc">
     <div class="calc-output">
       <div class="calc-output-display">
-        <p class="output"></p>
+        <p class="previuos" style="font-size: 1em; color:#777;"></p>
+        <p class="current"></p>
       </div>
     </div>
     <div class="calc-body">
@@ -34,7 +35,7 @@
         <div class="calc-body-cell num" data-value="4">4</div>
         <div class="calc-body-cell num" data-value="5">5</div>
         <div class="calc-body-cell num" data-value="6">6</div>
-        <div class="calc-body-cell plus" data-value="plus">+</div>
+        <div class="calc-body-cell oper" data-value="oper plus">+</div>
       </div>
 
 
@@ -42,21 +43,21 @@
         <div class="calc-body-cell num" data-value="1">1</div>
         <div class="calc-body-cell num" data-value="2">2</div>
         <div class="calc-body-cell num" data-value="3">3</div>
-        <div class="calc-body-cell min" data-value="min">-</div>
+        <div class="calc-body-cell oper" data-value="oper min">-</div>
       </div>
 
 
       <div class="calc-body-row">
-        <div class="calc-body-cell dot" data-value="dot">.</div>
+        <div class="calc-body-cell num" data-value="dot">.</div>
         <div class="calc-body-cell num" data-value="0">0</div>
-        <div class="calc-body-cell div" data-value="div">/</div>
-        <div class="calc-body-cell mul" data-value="mul">×</div>
+        <div class="calc-body-cell oper" data-value="div">/</div>
+        <div class="calc-body-cell oper" data-value="mul">×</div>
       </div>
 
 
       <div class="calc-body-row">
         <div class="calc-body-cell res" data-value="res">Reset</div>
-        <div class="calc-body-cell equal" data-value="equal">=</div>
+        <div class="calc-body-cell equal" data-value="oper equal">=</div>
       </div>
     </div>
   </div>
